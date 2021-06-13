@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+}
+
+body, html {
+    height: 100%;
+    min-width: 320px;
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tfoot, th, thead, time, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+html {
+    display: block;
+}
+
+head {
+    display: none;
+}
+
+meta {
+    display: none;
+}
+
+script {
+    display: none;
+}
+
+a, a:focus, button, div, h1, h2, h3, h4, h5, h6, input, select, span, textarea {
+    outline: 0;
+}
+
+
+body {
+    color: #000;
+    font-family: Arsenal,sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+    height: 100%;
+}
+
+.contacts {
+	background: black;
+}
+.phone{
+	color: white;
+	position: relative;
+    font-size: 16px;
+    font-family: sticker_font;
+	top:15px;
+	left: 10px;
+}
+
+.mail {
+	color: white;
+    position: relative;
+    font-size: 16px;
+    font-family: sticker_font;
+	left: 250px;
+	bottom: 7px;
+}
+.search{
+	position: relative;
+    font-size: 16px;
+    font-family: sticker_font;
+	left: 1400px;
+	bottom: 0;
+}
+
